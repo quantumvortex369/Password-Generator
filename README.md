@@ -1,3 +1,4 @@
+PasswordGenV2
 #  Generador de Contraseñas Seguras
 
 [![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/downloads/)
@@ -126,3 +127,25 @@ black .
 3. Haz commit de tus cambios (`git commit -am 'Añade nueva funcionalidad'`)
 4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`)
 5. Abre un Pull Request
+=======
+# Generador de Contraseñas 🛡️
+
+Este es un generador de contraseñas aleatorias hecho en Python. Crea contraseñas seguras usando letras, números y símbolos.
+
+## Características
+
+- Generación aleatoria
+- Letras mayúsculas y minúsculas
+- Números
+- Símbolos especiales
+- Longitud personalizable
+
+## Requisitos
+
+- Python 3.x
+
+## Uso
+
+```bash
+python generador_contraseñas.py
+main
