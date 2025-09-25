@@ -1,0 +1,101 @@
+# Configuración de finales de línea
+* text=auto eol=lf
+
+# Archivos binarios que deben mantenerse como están
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.pyc binary
+*.pyo binary
+*.pyd binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# Archivos de texto específicos que deben mantener sus finales de línea
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+*.conf text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.jsx text eol=lf
+*.tsx text eol=lf
+*.svg text eol=lf
+*.xml text eol=lf
+
+# Archivos que no deben ser rastreados
+.DS_Store export-ignore
+Thumbs.db export-ignore
+desktop.ini export-ignore
+
+# Archivos de Python que no deben ser rastreados
+__pycache__/ export-ignore
+*.py[cod] export-ignore
+*$py.class export-ignore
+
+# Archivos de entornos virtuales
+venv/ export-ignore
+env/ export-ignore
+.venv/ export-ignore
+ENV/ export-ignore
+
+# Archivos de configuración local
+.env export-ignore
+.env.local export-ignore
+.env.*.local export-ignore
+
+# Archivos de editor
+.vscode/ export-ignore
+.idea/ export-ignore
+*.sublime-workspace export-ignore
+*.sublime-project export-ignore
+
+# Archivos de sistema operativo
+.DS_Store export-ignore
+Thumbs.db export-ignore
+desktop.ini export-ignore
+
+# Archivos de paquetes de Python
+*.egg-info/ export-ignore
+.eggs/ export-ignore
+build/ export-ignore
+dist/ export-ignore
+.installed.cfg export-ignore
+*.egg export-ignore
+
+# Archivos de pruebas y cobertura
+htmlcov/ export-ignore
+.tox/ export-ignore
+.nox/ export-ignore
+.coverage export-ignore
+.coverage.* export-ignore
+.cache export-ignore
+nosetests.xml export-ignore
+coverage.xml export-ignore
+*.cover export-ignore
+.hypothesis/ export-ignore
+.pytest_cache/ export-ignore
+cover/ export-ignore
+
+# Archivos de documentación
+site/ export-ignore
+_build/ export-ignore
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints export-ignore
