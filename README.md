@@ -19,7 +19,7 @@ Un generador de contraseñas seguro y versátil con interfaz de línea de comand
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/tuusuario/password-generator.git
+   git clone https://github.com/quantumvortex369/password-generator.git
    cd password-generator
    ```
 
@@ -127,7 +127,3 @@ password_generator/
 3. Haz commit de tus cambios (`git commit -am 'Añade nueva funcionalidad'`)
 4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`)
 5. Abre un Pull Request
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Ver el archivo `LICENSE` para más detalles.
