@@ -1,8 +1,90 @@
 # Configuración de finales de línea
 * text=auto eol=lf
 
-# Archivos binarios que deben mantenerse como están
+# Archivos binarios
 *.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.pyz binary
+*.so binary
+*.dll binary
+*.exe binary
+*.dylib binary
+*.pyd binary
+*.pdb binary
+*.pyc binary
+*.pyo binary
+*.a binary
+*.o binary
+*.obj binary
+*.lib binary
+
+# Archivos de documentación
+*.md text
+*.txt text
+*.rst text
+*.adoc text
+*.markdown text
+*.mdwn text
+*.mkd text
+*.mdown text
+*.textile text
+*.rdoc text
+*.org text
+*.creole text
+*.mediawiki text
+*.wiki text
+*.pod text
+*.texi text
+
+# Archivos de configuración
+*.ini text
+*.cfg text
+*.conf text
+*.properties text
+*.yaml text
+*.yml text
+*.toml text
+*.json text
+*.xml text
+*.xsd text
+*.dtd text
+
+# Archivos de código fuente
+*.py text diff=python
+*.c text diff=c
+*.h text diff=c
+*.cpp text diff=cpp
+*.hpp text diff=cpp
+*.java text diff=java
+*.js text diff=javascript
+*.ts text diff=typescript
+*.css text diff=css
+*.html text diff=html
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Archivos de proyecto
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.user text eol=crlf
+*.suo binary
+*.userosscache binary
+*.scc binary
+
+# Archivos de sistema
+.DS_Store binary
+Thumbs.db binary
+desktop.ini binary
 *.jpg binary
 *.jpeg binary
 *.gif binary

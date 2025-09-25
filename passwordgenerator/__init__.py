@@ -1,21 +1,9 @@
 """
-Generador de Contraseñas Seguras
+Password Generator - A secure and feature-rich password management solution.
 
-Un módulo completo para generar y gestionar contraseñas seguras.
+This package provides tools for generating, managing, and securing passwords.
 """
 
-__version__ = "1.0.0"
-
-from .generator import PasswordGenerator
-from .strength_checker import PasswordStrengthChecker
-from .passphrase_generator import PassphraseGenerator
-from .storage import PasswordStorage
-from .cli import main as cli_main
-
-__all__ = [
-    'PasswordGenerator',
-    'PasswordStrengthChecker',
-    'PassphraseGenerator',
-    'PasswordStorage',
-    'cli_main'
-]
+__version__ = "2.0.0"
+__author__ = "Your Name"
+__license__ = "MIT"
