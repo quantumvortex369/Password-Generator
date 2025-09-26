@@ -3,8 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Distribution / packaging
 .Python
@@ -46,6 +54,30 @@ coverage.xml
 *.cover
 *.py,cover
 .hypothesis/
+.pytest_cache/
+
+# Database files
+*.db
+*.sqlite3
+*.psafe
+
+# Local development settings
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+.pytest_cache/
+.mypy_cache/
+*.log
 
 # Environments
 .env
